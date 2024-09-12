@@ -1,4 +1,20 @@
-import React from "react";
+// src/components/About.js
+import React from 'react';
+import {image} from "../data/user";
+
+const About = () => {
+  return (
+  <div>
+    <img src = {image} alt="profile"/> 
+    <p>About </p>
+    </div>
+  );
+};
+
+export default About;
+
+
+/*import React from "react";
 
 const About = () =>{
   return (
@@ -8,4 +24,4 @@ const About = () =>{
       <img src={image} alt="I made this" />
     </div>
   );
-}
+}*/
